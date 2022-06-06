@@ -2,7 +2,9 @@
   "extends": "../tsconfig.app.json",
   "compilerOptions": {
     "types": [
-      "node"
+      "node",
+      // TODO: this fixes the problem
+      // "@testing-library/jest-dom"
     ],
     "allowSyntheticDefaultImports": true
   },
